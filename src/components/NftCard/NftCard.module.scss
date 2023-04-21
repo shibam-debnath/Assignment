@@ -1,0 +1,145 @@
+.nftCardParent{
+  text-align: left;
+  font-size: 12px;
+  font-family: "Sharp Grotesk";
+}
+.nftCardParent {
+  width: 1069px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  color: #fff;
+}
+
+.nftImageIcon {
+    position: relative;
+    border-radius: 4px;
+    width: 193px;
+    height: 193px;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.nftCard,
+.nftImageIcon2 {
+  position: relative;
+  border-radius: 8px;
+}
+.nftCard {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 4px 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.nftImageIcon2 {
+  width: 193px;
+  height: 193px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+.nftCard {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 4px 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+
+    .monthsWrapper {
+        margin: 0 !important;
+        position: absolute;
+        top: 171px;
+        right: 8px;
+        border-radius: 31px;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(6px);
+        display: flex;
+        flex-direction: row;
+        padding: 1px 6px;
+        align-items: center;
+        justify-content: flex-start;
+        z-index: 1;
+    }
+}
+
+.namesHolder10,
+.namesHolderWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.namesHolder10 {
+  justify-content: center;
+  gap: 8px;
+}
+.namesHolderWrapper {
+  padding: 4px;
+  justify-content: flex-start;
+  z-index: 2;
+  color: #a2a2a2;
+}
+
+.amount12,
+.nftName {
+  position: relative;
+  line-height: 20px;
+}
+.nftName {
+  align-self: stretch;
+  font-size: 14px;
+  color: #fafafa;
+}
+
+.dingalingeth1 {
+    position: relative;
+    letter-spacing: 0.05em;
+    line-height: 20px;
+  }
+  .floorHolderChild {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+  }
+  .floorHolder {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 4px;
+    color: #fafafa;
+  }
+  .floorHolder,
+  .floorHolder1,
+  .namesHolder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .namesHolder {
+    width: 181px;
+    justify-content: space-between;
+  }
+  .floorHolder1 {
+    align-self: stretch;
+    justify-content: flex-start;
+    color: #19ed7b;
+  }
+
+.namesHolder {
+    width: 181px;
+    justify-content: space-between;
+}
+
+.amount12{
+    color: #19ed7b;
+}
